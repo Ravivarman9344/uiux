@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Ravivarman M - UI/UX Designer & Frontend Developer Portfolio. Discover my projects, skills, and experience.">
+    <title>Ravivarman M | UI/UX Designer & Developer</title>
+    <!-- Fonts for a vintage-modern aesthetic -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <!-- <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">RM.</a>
+
+            <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" aria-label="Toggle Dark/Light Mode">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+        </div>
+    </nav> -->
+
+
+    <nav id="navbar">
+    <div class="nav-container">
+        <a href="#home" class="logo">RM.</a>
+
+        <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="theme-menu-item">
+                <button id="theme-toggle" aria-label="Toggle Dark/Light Mode">
+                    <i class="fa-solid fa-moon"></i> <span class="theme-text"></span>
+                </button>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Ravivarman M</span></h1>
+            <h2>UI/UX & Product Designer</h2>
+            <p>Crafting intuitive, vintage-inspired digital experiences bridged with solid technical execution. Based in
+                Coimbatore, Tamil Nadu.</p>
+            <div class="cta-group">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <!-- Replace # with actual resume PDF link -->
+                <a href="assets/Ravivarman_Resume.pdf" class="btn btn-secondary" download>Download Resume</a>
+            </div>
+            <div class="social-links">
+                <!-- <a href="https://github.com" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a> -->
+                <a href="https://www.linkedin.com/in/ravivarman-m-6475592a0/" target="_blank" aria-label="LinkedIn"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="mailto:ravivarman@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p class="about-text">
+                Creative and detail-oriented UI/UX Designer with a passion for crafting user-centric mobile and web
+                applications. Uniquely equipped with a strong technical understanding of frontend development, Node.js,
+                and payment integrations, I seamlessly bridge the gap between aesthetic design and functional reality.
+                Whether mapping user journeys, defining a nostalgic aesthetic, or collaborating closely with engineering
+                teams, my goal is to build digital products that are both beautiful and robust.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title">Core Competencies & Skills</h2>
+            <div class="skills-grid">
+
+                <div class="skill-category">
+                    <h3>UX/UI Design & Product Design</h3>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Figma / Adobe XD</span><span>95%</span></div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 95%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Wireframing & Prototyping</span><span>85%</span></div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Design Thinking / KPIs Strategies</span><span>80%</span></div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Development & Tech</h3>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>HTML / CSS / JS</span><span>85%</span></div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <!-- <div class="skill-item">
+                        <div class="skill-info"><span>Node.js & Payment APIs (Stripe)</span><span>75%</span></div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%;"></div>
+                        </div>
+                    </div> -->
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Flutter & Wordpress </span><span>85%</span></div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="project-grid">
+
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>D Gateway</h3>
+                        <p class="role">UI/UX Designer</p>
+                        <p>Designed the complete web and mobile responsiveness for an AI-powered ecosystem. Utilized
+                            comprehensive wireframing, color theory, and UX research derived from custom user personas
+                            to ensure intuitive navigation.</p>
+                        <div class="tech-stack">
+                            <span>Figma</span> <span>Prototyping</span> <span>UX Research</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Crypto Investment Platform</h3>
+                        <p class="role">Product & UI/UX Designer</p>
+                        <p>Architected a mobile application facilitating token exchange and purchases. Designed complex
+                            features including a voucher-based token exchange system and an interface for acquiring
+                            low-cost event tickets.</p>
+                        <div class="tech-stack">
+                            <span>Mobile UI</span> <span>FinTech</span> <span>User Flows</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="project-card">
+                    <div class="project-content">
+                        <h3>Premium Music Streaming App</h3>
+                        <p class="role">Full-Stack Developer</p>
+                        <p>Developed an intuitive music application featuring a micro-transaction premium mode.
+                            Implemented secure backend payment routing and a smooth, aesthetically pleasing frontend
+                            interface.</p>
+                        <div class="tech-stack">
+                            <span>Node.js</span> <span>Stripe API</span> <span>UI Design</span>
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Education Section -->
+    <section id="experience" class="section bg-alt">
+        <div class="container">
+            <div class="timeline-container">
+                <div class="timeline-section">
+                    <h2 class="section-title">Experience</h2>
+                    <div class="timeline-item">
+                        <h3>Junior UI/UX Designer</h3>
+                        <h4>IQ General System Pvt Ltd | Coimbatore, TN</h4>
+                        <span class="date">Jul 2025 – Present</span>
+                        <ul>
+                            <li>Spearhead the end-to-end UI/UX design process for consumer-facing mobile and web
+                                applications.</li>
+                            <li>Develop comprehensive design systems and component libraries in Figma.</li>
+                            <li>Collaborate closely with full-stack developers to ensure high-fidelity designs are
+                                technically feasible.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-section">
+                    <h2 class="section-title">Education</h2>
+                    <div class="timeline-item">
+                        <h3>B.Tech Computer Science & Business Systems</h3>
+                        <h4>JCT College of Engineering and Technology</h4>
+                        <span class="date">Graduated: 2025 | 8 CGPA</span>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>Higher Secondary (HSC/+2)</h3>
+                        <h4>Sacred Heart MHSS | The Nilgiris</h4>
+                        <span class="date">Graduated: 2021 | 81%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <p>I'm always open to discussing product design work or partnership opportunities.</p>
+                    <ul>
+                        <li><i class="fa-solid fa-phone"></i> +91 9344143730</li>
+                        <li><i class="fa-solid fa-envelope"></i> ravivarman@gmail.com</li>
+                        <li><i class="fa-solid fa-location-dot"></i> Coimbatore, Tamil Nadu</li>
+                    </ul>
+                </div>
+                <form id="contact-form" class="contact-form" action="https://formspree.io/f/mqevglyk"
+                    method="POST">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-top" aria-label="Scroll to Top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Ravivarman M. UI/UX Portfolio. Unauthorized use of assets is prohibited.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
